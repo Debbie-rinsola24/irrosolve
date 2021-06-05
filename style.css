@@ -1,0 +1,185 @@
+body, html {
+   width: auto;
+   height: auto;
+   background-image: url(backg.jpg);
+   background-repeat: no-repeat;
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  
+}
+
+.landing{
+   height: 89%;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 35px auto 30px auto;
+    width: 40%;
+     box-shadow: 5px 1px white;
+   
+}
+
+h1 {
+  color: rgb(114, 70, 3);
+  font-size: 40px;
+   text-align: center;
+
+  
+}
+
+h2  {
+  color: rgb(80, 141, 121);
+   text-align: center;
+
+}
+span {
+color: rgb(73, 167, 135);
+ margin-left: 50px;
+ }
+
+h3 {
+  color: rgb(184, 135, 63);
+   text-align: center;
+
+}
+
+
+/*report a problem*/
+
+h4 {
+  color: antiquewhite;
+  margin-left: 20px;
+  
+}
+
+label {
+  margin-left: 20px;
+
+}
+
+span {
+color: aquamarine;
+ margin-left: 50px;
+ }
+
+h3 {
+  color: rgb(184, 135, 63);
+   text-align: center;
+
+}
+
+input {
+  margin-top: 2px;
+  padding-top: 10px;
+  width: 500px;
+  background-color: white;
+  color: black;
+  margin-left: 50px;
+}
+
+.manger {
+  width: auto;
+  color: white;
+  display: inline;
+   text-align: center;
+
+}
+.department{
+  color: antiquewhite;
+  margin-left: 30px;
+
+}
+
+button {
+  background-color: rgb(36, 189, 138);
+  width: 90px;
+  height: 30px;
+  color: aliceblue;
+  float: right;
+  margin-right: 20px;
+  
+}
+
+
+.create {
+  color: aliceblue;
+  text-align: center;
+}
+
+a {
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+ /*query media*/
+ 
+  @media screen and (min-width: 350px) {
+   input {
+     width: 120px;
+   }
+   h1 {
+     text-align:center;
+     font-size: 30px
+   }
+   h4 {
+     font-size: 10px;
+   }
+   .landing{
+   height: 50%;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 35px auto 30px auto;
+    width: 70%;
+     box-shadow: 5px 1px white;
+   
+}
+}
+ 
+@media screen and (min-width: 700px) {
+   input {
+     width: 400px;
+   }
+   h1 {
+     text-align:center;
+     font-size: 30px
+   }
+   h4 {
+     font-size: 10px;
+   }
+   .landing{
+   height: 70%;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 35px auto 30px auto;
+    width: 40%;
+     box-shadow: 5px 1px white;
+   
+}
+}
+
+@media screen and (min-width: 500px) {
+   input {
+     width: 300px;
+   }
+   h1 {
+     text-align:center;
+     font-size: 30px
+   }
+   h4 {
+     font-size: 10px;
+   }
+   .landing{
+   height: 70%;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 35px auto 30px auto;
+    width: 40%;
+     box-shadow: 5px 1px white;
+   
+}
+}
+
+  
+ 

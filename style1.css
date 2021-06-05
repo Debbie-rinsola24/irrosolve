@@ -1,0 +1,118 @@
+body, html {
+   width: 100%;
+   height: 100%;
+   background-image: url(backg.jpg);
+   background-repeat: no-repeat;
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.landing {
+   height: 89%;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 35px auto 30px auto;
+    width: 40%;
+    box-shadow: 5px 1px white;
+   
+}
+
+/*Navbar*/
+
+
+h1 {
+  color: rgb(184, 135, 63);
+  font-size: 30px; 
+  text-align: center;
+  margin-left: -35px;
+
+}
+ img {
+  width: 70%;
+  height: 30%;
+   margin-left: 80px;
+}
+
+h2  {
+  color: aquamarine;
+   text-align: center;
+
+}
+span {
+color: aquamarine;
+ margin-left: 50px;
+ }
+
+h3 {
+  color: rgb(184, 135, 63);
+   text-align: center;
+}
+h4 {
+   margin-left: 30px;
+}
+button {
+   color: antiquewhite;
+   background-color: rgb(98, 187, 157);
+   width: 80px;
+   height: 40px;
+   float: right;
+   margin-right: 20px;
+   float: right;
+   text-decoration: none;
+}
+
+input {
+   display: inline-block;
+   color: antiquewhite;
+   margin-left: 30px;
+}
+.nav1 {
+   color: antiquewhite;
+}
+.nav2 {
+   color: antiquewhite;
+}
+
+/*query media*/
+
+@media screen and (min-width: 350px) {
+  .landing {
+   height: 88%;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 35px auto 30px auto;
+    width: 70%;
+    box-shadow: 5px 1px white;
+   
+}
+  
+  img {
+    margin-left: 40px;
+     width: 60%;
+     height: 15%;
+    text-align: center;
+  }
+  
+}
+
+@media screen and (min-width: 700px) {
+  .landing {
+   height: 89%;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 35px auto 30px auto;
+    width: 40%;
+    box-shadow: 5px 1px white;
+   
+}
+  
+  img {
+    margin-left: 40px;
+     width: 80%;
+     height: 25%;
+    text-align: center;
+  }
+  
+}
